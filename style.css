@@ -1,0 +1,114 @@
+/*Adiciona a cor de fundo a barra de navegação*/
+nav{
+    background-color: #efd8a4;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+/*Estiliza os links*/
+.topnav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*Modifica a cor quando se passa o mouse por cima*/
+.topnav a:hover{
+    background-color:  #e47f83;
+    color: black;
+}
+
+/*Dá destaque a um dos links*/
+.topnav a.active {
+    background-color:  #e47f83;
+    color: white;
+}
+
+body{
+    background-color: #ffeee7;
+}
+
+/*Estilização da Div 'Sobre mim'*/
+.sobremim{
+    display: flex;
+    padding: 14px;
+
+    img{
+        width: 300px;
+        height: 300px;
+        padding-right: 30px;
+        border-radius: 50%;
+    }
+
+    .conteudo{
+        p{
+            margin: 0;
+            max-width: 900px;
+        }
+    }
+}
+
+.formacao{
+    margin-left: 14px;
+}
+
+.portfolio{
+    margin-left: 14px;
+}
+
+.contato{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+
+    .nome{
+        margin-bottom: 14px;
+
+        label{
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        input{
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    }
+
+    .email{
+        margin-bottom: 14px;
+
+        label{
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        input{
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    }
+
+    .mensagem{
+        margin-bottom: 14px;
+
+        label{
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        textarea{
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    }
+}

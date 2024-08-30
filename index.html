@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<nav class="topnav">
+    <a class="active" href="#sobremim">Sobre mim</a>
+    <a href="#formacao">Formação</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<body>
+    
+    <!-- Apresentação, nome, hobbies, etc -->
+    <div class="sobremim">
+        <img src="img.jpg" alt="Garota com girassóis">
+
+        <div class="conteudo">
+            <h1 id="sobremim">Sobre mim</h1>
+            <p>Olá! Tudo bem?</p>
+            <p>Me chamo Giovanna Valle, mas também atendo pelo apelido de Gih! Tenho 19 anos, nasci na cidade de Avaré, mas cresci a maior parte da minha vida em Taubaté!</p>
+
+            <p>Não tenho uma cor favorita, já que isso está ligado a um dos meus hobbies que é desenhar! Inclusive, desenho tanto digitalmente, como numa mesa digitalizadora, quanto no papel; mas não é tão frequente quanto eu gostaria.</p>
+
+            <p>Outro dos meus hobbies é a leitura! Leio principalmente fantasia e romance, os quais são meus gêneros preferidos. Também leio tanto fisicamente quanto pelo digital, atualmente estou lendo vários mangás e em questão de livros físicos, estou no segundo livro da série da Rainha Vermelha.</p>
+
+            <p>Por fim, também tenho muito gosto por jogos! Esse amor cresceu graças ao meu avô, o qual eu assistia jogando séries como Resident Evil quando eu era pequena. E assim como meu gosto para livros, gosto muito de jogos de fantasia, mas também de escolhas! Onde posso fazer meu próprio caminho na história.</p>
+
+            <p>Aqui são algumas coisas sobre mim, obrigada por ler!</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Texto informando sobre a formação -->
+    <div class="formacao">
+        <h1 id="formacao">Formação Acadêmica!</h1>
+        <ul>
+            <li>Ensino Fundamental I e II concluído na escola EMEFM Prof. Juvenal da Costa e Silva, no ano de 2019.</li>
+            <li>Ensino Médio concluído no colégio EMEFM Prof. José Ezequiel de Souza, no ano de 2022.</li>
+            <li>Curso Técnico de Técnico de informática para internet no SENAC - Taubaté, no ano de 2024.</li>
+        </ul>
+
+        <h3>Idiomas</h3>
+        <ul>
+            <li>Sei o intermediário de Inglês, apesar de não saber pronunciar em inglês.</li>
+            <li>Básico de Espanhol, pois a língua tem suas similiaridades com o português, então tenho certa facilidade.</li>
+        </ul>
+    </div>
+    
+    <hr>
+
+    <!-- Links para o Portifólio -->
+    <div class="portfolio">
+        <h1 class="portfolio">Portfólio</h1>
+
+        <p>Esses projetos foram feitos na época que eu estudava no SENAC!</p>
+
+        <ul>
+            <li>
+                <a href="https://github.com/GihValle/Fashion-Frenzy---Front-End">
+                    HTML & CSS de um ecommerce de roupas
+                </a>
+            </li>
+            
+            <li>
+                <a href="https://github.com/GihValle/IonicLogin">
+                    Versão do mesmo ecommerce de roupas, mas para celular
+                </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/GihValle/Ionic---eCommerce">
+                    E-commerce em de comida no Ionic
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+    <hr>
+
+    <!-- Área dos Input para Contato -->
+    <div class="contato">
+        <h1 id="contato">Contato</h1>
+
+        <form>
+
+            <div class="nome">
+                <label for="name">Nome: </label>
+                <input type="text" id="nome" name="nome">
+            </div>
+
+            <div class="email">
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email">
+            </div>
+
+            <div class="mensagem">
+                <label for="message">Mande um recado: </label>
+                <textarea name="message" id="message" rows="5"></textarea>
+            </div>
+
+            <div class="botao">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
