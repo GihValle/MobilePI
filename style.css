@@ -27,6 +27,7 @@ nav{
     color: white;
 }
 
+/*Alterando a cor de fundo do body*/
 body{
     background-color: #ffeee7;
 }
@@ -51,14 +52,17 @@ body{
     }
 }
 
+/*Aumentando a margem*/
 .formacao{
     margin-left: 14px;
 }
 
+/*Aumentando a margem²*/
 .portfolio{
     margin-left: 14px;
 }
 
+/*Estilizando os inputs de contato*/
 .contato{
     max-width: 500px;
     margin: 0 auto;
